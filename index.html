@@ -14,7 +14,46 @@
     <title>Login Form Css</title>
   </head>
   <body>
-    <section></section>
+    <section>
+      <img src="./images/logo.svg" alt="icone" />
+      <!--incluindo logo-->
+    </section>
+
+    <section>
+      <p><img src="./images/log-in.svg" alt="" /> Faça seu Login</p>
+      <p>Entre com suas informações de cadastro.</p>
+    </section>
+
+    <section>
+      <label for="email">E-mail</label>
+      <input
+        type="email"
+        id="email"
+        name="E-mail"
+        placeholder="Digite seu e-mail"
+      />
+      <!--placeholder para dizer oq o usuario precisa colocar no input-->
+      <label for="senha">Senha</label>
+      <input
+        type="password"
+        id="senha"
+        value="senha"
+        placeholder="Digite sua senha"
+      />
+    </section>
+
+    <section>
+      <input type="checkbox" id="lembre" name="Lembre-me" value="Lembre-me" />
+      <label for="lembre">Lembre-me</label>
+      <input type="submit" value="Esqueci minha senha" />
+    </section>
+    <section>
+      <input type="submit" value="ENTRAR" />
+      <p>
+        Não tem uma conta?
+        <input type="submit" name="registre" value="Registre-se" />
+      </p>
+    </section>
   </body>
   <script href="/js/index.js"></script>
 </html>
