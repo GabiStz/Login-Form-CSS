@@ -5,21 +5,25 @@
     color: #afb6c2;
     font-family: Poppins;
     font-family: Roboto;
-    padding: 2vw;
+    padding: 4vw;
   }
+
   .container1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;  
+    margin-top: 3vw;
    
   }
+
   #logo{
     width: 40vw;
   }
+
   #txt1{
     font-size:1.5rem;
     font-family: poppins;
-    }
+  }
   
   #slogan{
     margin-top: -6vw;
@@ -28,16 +32,29 @@
   .container2{
     display: flex;
     flex-direction: column;
+    margin-top: 5vw;
     
    
   }
+
+  #email1{
+    font-family: poppins;
+  }
+
   #email{
     background-image:url(/images/mail.svg);
     background-repeat: no-repeat;
     border-radius: 1vw;
     font-family: Roboto;
     padding: 2vw;
+    padding-left: 8vw;
+    
 
+  }
+
+  #senha1{
+    margin-top: 8vw;  
+    font-family: poppins;
   }
 
   #senha{
@@ -46,5 +63,10 @@
     border-radius: 1vw;
     font-family: Roboto;
     padding: 2vw;
-
+    padding-left: 8vw;
+  }
+  .container3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
   }
