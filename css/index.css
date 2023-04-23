@@ -1,17 +1,40 @@
-/*:root {
-    --text-base: #afb6c2;
-    --text-title: #d4ccb6;
-    --background: #191816;
-    --form-background: #24221f;
-    --primary-color: #ffc632;
-  }*/
   html{
-    
-    background-color: black;
-    color: white;
-  }
-  #logo{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    color: #afb6c2;
+    font-family: Poppins;
+    font-family: Roboto;
+    padding: 2vw;
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+   
+  }
+  #logo{
+    width: 40vw;
+  }
+  #txt1{
+    font-size:1.5rem;
+    font-family: poppins;
+    }
+  
+  #slogan{
+    margin-top: -6vw;
+  }
+
+  .container2{
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  #email{
+    background-image:url(/images/mail.svg);
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+    font-family: Roboto;
+    padding: 2vw;
+
   }
