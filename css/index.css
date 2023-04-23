@@ -1,6 +1,7 @@
   html{
     display: flex;
     flex-direction: column;
+    background: black;
     color: #afb6c2;
     font-family: Poppins;
     font-family: Roboto;
