@@ -38,3 +38,12 @@
     padding: 2vw;
 
   }
+
+  #senha{
+    background-image: url(/images/lock.svg);
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+    font-family: Roboto;
+    padding: 2vw;
+
+  }
