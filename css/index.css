@@ -14,6 +14,12 @@
     margin-top: 3vw;
    
   }
+  .container-login{
+   display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  }
+
 
   .logo{
     width: 40vw;
@@ -24,8 +30,8 @@
     font-family: poppins;
   }
   
-  #slogan{
-    margin-top: -4vw;
+  .slogan{
+    margin-top: -8vw;
   }
 
   .container-email{
