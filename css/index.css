@@ -80,18 +80,20 @@
   .container-check{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 5vw;
     border-color:#FFC632 ;
+    cursor: pointer;
   }
   
   #lembre{
     cursor: pointer;
   }
 
-  .esqueci_ms{
-    margin-left: 20vw;  
-    width: 40vw;
+  .senha{
+   
     color: #FFC632;
+    text-decoration: none;
     font-family: poppins;
     font-weight: bold;
     background-color: black;
@@ -115,17 +117,23 @@
   margin-top: 5vw;
   cursor: pointer;
 }
-.ntConta{
+
+.container-registre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   color: #FFC632;
-  padding-left: 14vw;  
-}
-.ntConta input{
-  color: #FFC632;
-  font-weight: bold;
-  background-color: black;
-  border: none;
   cursor: pointer;
 }
+.registre{
+  text-decoration: none;
+  color: #FFC632;
+  font-weight: bold;
+
+}
+
+
+
 @media (min-width: 550px) {
   html{
     display: flex;
@@ -161,7 +169,6 @@
     font-family: poppins;
   }
   #email{
-    background-image:url(/images/mail.svg);
     background-repeat: no-repeat;
     margin-top: 1vw;
     border-radius: 0.5vw;
@@ -176,7 +183,6 @@
     font-family: poppins;
   }
   #senha{
-    background-image: url(/images/lock.svg);
     background-repeat: no-repeat;
     border-radius: 0.5vw;
     font-family: Roboto;
