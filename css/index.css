@@ -153,9 +153,16 @@
     font-family: Roboto;
     padding: 4vw;
   }
-
-  .imagem{
+  .back-desktop{
+    background-color: #24221F;
+    width: 40%;
+    height:50%;
     
+  }
+  .imagem{
+    display: flex;
+    margin-left: 47.5vw;
+    margin-top: -68vw;
     
   }
   .logo{
