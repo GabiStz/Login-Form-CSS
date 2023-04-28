@@ -2,10 +2,298 @@
 
 
 @media screen and (min-width:481px) and (max-width:767px){
+    html{
+        display: flex;
+        flex-direction: column;
+        background: black;
+        color: #afb6c2;
+        font-family: Roboto;
+        padding: 4vw;
+      }
+    
+      .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        margin-top: 3vw;
+       
+      }
+      .container-login{
+       display: flex;
+       flex-direction: row;
+       gap: 2vw;
+      }
+    
+    
+      .logo{
+        width: 40vw;
+      }
+    
+      #txt1{
+        font-size:1.5rem;
+        font-family: poppins;
+      }
+      
+      .slogan{
+        margin-top: -4vw;
+      }
+    
+      .container-email{
+       
+        position: relative;
+        margin-top: 5vw;
+        
+       
+      }
+    
+      #email1{
+        font-family: poppins;
+      }
+    
+    
+      .input-icon{
+        height: auto;
+        width: 20px;
+        position: absolute;
+        top: 52%;
+        left: 8px;
+    
+      }
+      #email{
+        display: flex;
+        border-radius: 1vw;
+        font-family: Roboto;
+        padding: 2vw;
+        padding-left: 7vw;
+        width: 78vw;
+    }
+      .container-password{
+        position: relative;
+        margin-top: 5vw;
+      }
+      #senha1{
+        
+        margin-top: 8vw;  
+        font-family: poppins;
+      }
+    
+      #senha{
+        display: flex;
+        border-radius: 1vw;
+        font-family: Roboto;
+        padding: 2vw;
+        padding-left: 7vw;
+        width: 78vw;
+      }
+    
+    
+      .container-check{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5vw;
+        border-color:#FFC632 ;
+        cursor: pointer;
+      }
+      
+      #lembre{
+        cursor: pointer;
+      }
+    
+      .senha{
+       
+        color: #FFC632;
+        text-decoration: none;
+        font-family: poppins;
+        font-weight: bold;
+        background-color: black;
+        border: black;
+        cursor: pointer;
+      }
+    
+      .container-inputEntrar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #entrar{
+      color: #473404;
+      font-family: poppins;
+      font-weight: bold;
+      background-color: #FFC632;
+      border-radius: 1vw;
+      border: none;
+      padding: 3.5vw;
+      margin-top: 5vw;
+      cursor: pointer;
+    }
+    
+    .container-registre{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #FFC632;
+      padding-left: 10vw;
+    }
+    .registre{
+      text-decoration: none;
+      color: #FFC632;
+      cursor: pointer;
+    
+    }
+    .imagem{
+      display: none;
+    
+    }
+    
     
 }
 
 /*Celular*/
 @media screen and (max-width:480px) {
+    html{
+        display: flex;
+        flex-direction: column;
+        background: black;
+        color: #afb6c2;
+        font-family: Roboto;
+        padding: 4vw;
+      }
+    
+      .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;  
+        margin-top: 3vw;
+       
+      }
+      .container-login{
+       display: flex;
+       flex-direction: row;
+       gap: 2vw;
+      }
+    
+    
+      .logo{
+        width: 40vw;
+      }
+    
+      #txt1{
+        font-size:1.5rem;
+        font-family: poppins;
+      }
+      
+      .slogan{
+        margin-top: -8vw;
+      }
+    
+      .container-email{
+       
+        position: relative;
+        margin-top: 5vw;
+        
+       
+      }
+    
+      #email1{
+        font-family: poppins;
+      }
+    
+    
+      .input-icon{
+        height: auto;
+        width: 20px;
+        position: absolute;
+        top: 30px;
+        left: 8px;
+    
+      }
+      #email{
+        display: flex;
+        border-radius: 1vw;
+        font-family: Roboto;
+        padding: 2vw;
+        padding-left: 8vw;
+        width: 76vw;
+    }
+      .container-password{
+        position: relative;
+        margin-top: 5vw;
+      }
+      #senha1{
+        
+        margin-top: 8vw;  
+        font-family: poppins;
+      }
+    
+      #senha{
+        display: flex;
+        border-radius: 1vw;
+        font-family: Roboto;
+        padding: 2vw;
+        padding-left: 8vw;
+        width: 76vw;
+      }
+    
+    
+      .container-check{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5vw;
+        border-color:#FFC632 ;
+        cursor: pointer;
+      }
+      
+      #lembre{
+        cursor: pointer;
+      }
+    
+      .senha{
+       
+        color: #FFC632;
+        text-decoration: none;
+        font-family: poppins;
+        font-weight: bold;
+        background-color: black;
+        border: black;
+        cursor: pointer;
+      }
+    
+      .container-inputEntrar{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #entrar{
+      color: #473404;
+      font-family: poppins;
+      font-weight: bold;
+      background-color: #FFC632;
+      border-radius: 1vw;
+      border: none;
+      padding: 3.5vw;
+      margin-top: 5vw;
+      cursor: pointer;
+    }
+    
+    .container-registre{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: #FFC632;
+      padding-left: 10vw;
+    }
+    .registre{
+      text-decoration: none;
+      color: #FFC632;
+      cursor: pointer;
+    
+    }
+    .imagem{
+      display: none;
+    
+    }
+    
     
 }
