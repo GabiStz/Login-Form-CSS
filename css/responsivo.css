@@ -10,7 +10,10 @@
         font-family: Roboto;
         padding: 4vw;
       }
-    
+    .fundo-quadrado{
+      display: flex;
+      flex-direction: column;
+    }
       .container-logo{
         display: flex;
         flex-direction: column;
