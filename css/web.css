@@ -3,95 +3,50 @@
   html{
     display: flex;
     flex-direction: column;
-    background: rgb(33, 27, 143);
+    background: rgb(0, 0, 0);
     color: #afb6c2;
     font-family: Roboto;
     padding: 4vw;
   }
-
-  .imagem{
+  .fundo-quadrado{
     display: flex;
-  }
-  .logo{
-    width: 10vw;
-    margin-top: -5vw;
-    margin-left: 0.5vw;
-   
+    background-color:#24221F;
+    flex-direction: column;
+    align-items: center;
+    max-width: 36%;
+    margin-top: 8vw;
+    height: 50vh;
+    padding-top: 3vw;
+    margin-left: 10vw;
+
   }
   .container-login{
     display: flex;
+    margin-left: -5vw;
     flex-direction: row;
     gap: 0.5vw;
    }
-   .slogan{
-    margin-top: -2vw;
-  }
-  .container-email{
-   
-    position: relative;
-    margin-top: 5vw;
+
+  #txt1{
     
-  }
-  #email1{
+    font-size:1.5rem;
     font-family: poppins;
   }
-
-
-  .input-icon{
-    height: auto;
-    width: 20px;
-    position: absolute;
-    top: 35px;
-    left: 12px;
-
-  }
-  #email{
-    display: flex;
-    border-radius: 0.3vw;
-    font-family: Roboto;
-    padding: 0.8vw;
-    padding-left: 2.5vw;
-    width: 23vw;
-}
-#senha1{
+  
+  .slogan{
+    margin-top: -2vw;
+    margin-left: -4.5vw;
     
-  margin-top: 8vw;  
-  font-family: poppins;
-}
+  }
 
-#senha{
-  display: flex;
-  border-radius: 0.3vw;
-  font-family: Roboto;
-  padding: 0.8vw;
-  padding-left: 2.5vw;
-  width: 23vw;
-}
- 
-#lembre{
-  cursor: pointer;
-  margin-left: 1vw;
-}
- .container-check{
+  .imagem{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 5vw;
-    border-color:#FFC632 ;
-    cursor: pointer;
+    justify-content: flex-end;
+    margin-top: -50vw;  
+    margin-right: -4.5vw;
+   
   }
   
-.senha{
-   
-  color: #FFC632;
-  text-decoration: none;
-  font-family: poppins;
-  font-weight: bold;
-  background-color: #24221F;
-  border: black;
-  cursor: pointer;
-  margin-right: 15vw;
-}
- 
   
 }
