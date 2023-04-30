@@ -4,7 +4,7 @@
 @media screen and (min-width:481px) and (max-width:767px){
     html{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         background: black;
         color: #afb6c2;
         font-family: Roboto;
@@ -146,7 +146,7 @@
 @media screen and (max-width:480px) {
     html{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         background: black;
         color: #afb6c2;
         font-family: Roboto;

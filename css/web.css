@@ -1,25 +1,33 @@
 
 @media screen and (min-width: 750px) {
-  html{
+  body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: rgb(0, 0, 0);
+    justify-content: space-between;
     color: #afb6c2;
     font-family: Roboto;
-    padding: 4vw;
+    margin: 0px;
+    /* padding: 4vw; */
   }
   .fundo-quadrado{
     display: flex;
     background-color:#24221F;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     max-width: 36%;
     margin-top: 8vw;
     height: 50vh;
     padding-top: 3vw;
-    margin-left: 10vw;
+    margin-left: 5vw;
 
   }
+  .logo{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    width: 10vw;
+  }
+
   .container-login{
     display: flex;
     margin-left: -5vw;
@@ -42,11 +50,14 @@
   .imagem{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-top: -50vw;  
-    margin-right: -4.5vw;
-   
+    align-items: stretch;
+    width: 55vw;
+    height: 97.5vh;
+    
   }
-  
+  .img{
+    width: 100vw;
+    height: 100vh;
+  }
   
 }
