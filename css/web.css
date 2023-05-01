@@ -20,8 +20,9 @@
     margin-top: 11vw;
     height: 55vh;
     margin-right: 6VW;
-    padding-top: 5vw;
+    padding-top: 6vw;
     margin-left: -9vw;
+    padding-right: 5vw;
   }
   .logo{
     margin-top: 3vw;
@@ -108,6 +109,47 @@
   margin-left: 5vw;
   width: 20vw;
   margin-top: 1vw;
+  
+}
+.container-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6vw;
+  margin-left: 5vw;
+  margin-top: 1vw;
+
+}
+
+#lembre{
+  cursor: pointer;
+}
+.senha{
+       
+  color: #FFC632;
+  text-decoration: none;
+  font-family: poppins;
+  border: black;
+  cursor: pointer;
+  
+}
+.container-inputEntrar{
+  display: flex;
+  flex-direction: column;
+  
+}
+#entrar{
+color: #473404;
+font-family: poppins;
+font-weight: bold;
+background-color: #FFC632;
+border-radius: 0.5vw;
+border: none;
+padding: 1vw;
+margin-top: 2vw;
+margin-left: 5vw;
+width: 25vw;
+cursor: pointer;
 }
 
 }
