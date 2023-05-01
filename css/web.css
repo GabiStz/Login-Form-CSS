@@ -17,12 +17,11 @@
     align-items: center;
     justify-content: center;
     width: 35vw;
-    margin-top: 20vw;
+    margin-top: 11vw;
     height: 55vh;
     margin-right: 6VW;
+    padding-top: 5vw;
     margin-left: -9vw;
-    margin-top: 15vw;
-
   }
   .logo{
     margin-top: 3vw;
@@ -32,7 +31,7 @@
 
   .container-login{
     display: flex;
-    margin-left: -1vw;
+    margin-left: -3vw;
     margin-top: -2vw;
     flex-direction: row;
     gap: 0.5vw;
@@ -45,8 +44,9 @@
   }
   
   .slogan{
-    margin-top: -2vw;
-    margin-left: 3.5vw;
+    margin-top: -2.5vw;
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
     
   }
 
@@ -62,5 +62,52 @@
     width: 100vw;
     height: 100vh;
   }
+  .container-email{  
+    position: relative;
+  }
+
+  #email1{
+    font-family: poppins;
+    margin-left: 5vw;
+  }
+
+
+  .input-icon{
+    height: auto;
+    width: 20px;
+    position: absolute;
+    top: 55%;
+    left: 90px;
+
+  }
+  #email{
+    display: flex;
+    border-radius: 0.5vw;
+    font-family: Roboto;
+    padding: 1vw;
+    padding-left: 3vw;
+    margin-left: 5vw;
+    width: 20vw;
+    margin-bottom: 1vw
+}
+.container-password{
+  position: relative;
   
+}
+#senha1{  
+  font-family: poppins;
+  margin-left: 5vw;
+}
+
+#senha{
+  display: flex;
+  border-radius: 0.5vw;
+  font-family: Roboto;
+  padding: 1vw;
+  padding-left: 3vw;
+  margin-left: 5vw;
+  width: 20vw;
+  margin-top: 1vw;
+}
+
 }
