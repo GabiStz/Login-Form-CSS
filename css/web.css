@@ -151,5 +151,17 @@ margin-left: 5vw;
 width: 25vw;
 cursor: pointer;
 }
+.container-registre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFC632;
+  padding-left: 5vw;
+}
+.registre{
+  text-decoration: none;
+  color: #FFC632;
+  cursor: pointer;
+}
 
 }
