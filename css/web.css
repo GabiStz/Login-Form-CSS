@@ -7,7 +7,7 @@
     justify-content: space-between;
     color: #afb6c2;
     font-family: Roboto;
-    margin: 0px;
+    margin: 0;
     /* padding: 4vw; */
   }
   .fundo-quadrado{
@@ -81,6 +81,7 @@
     left: 90px;
 
   }
+
   #email{
     display: flex;
     border-radius: 0.5vw;
@@ -89,7 +90,10 @@
     padding-left: 3vw;
     margin-left: 5vw;
     width: 20vw;
-    margin-bottom: 1vw
+    margin-bottom: 1vw;
+    background:#24221F;
+    border: none;
+    color: #A9AFB9;
 }
 .container-password{
   position: relative;
@@ -109,6 +113,9 @@
   margin-left: 5vw;
   width: 20vw;
   margin-top: 1vw;
+  background:#24221F;
+  border: none;
+  color: #A9AFB9;
   
 }
 .container-check{
