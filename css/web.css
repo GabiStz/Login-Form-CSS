@@ -131,12 +131,14 @@
   justify-content: space-between;
   gap: 6vw;
   margin-left: 5vw;
+  
   margin-top: 1vw;
 
 }
 
 #lembre{
   cursor: pointer;
+  background-color: #FFC632;
 }
 .senha{
        
