@@ -18,7 +18,7 @@ Neste desafio você vai criar um formulário de login.. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Habits" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Habits" src=".github/readme.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -29,19 +29,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 - Figma
+  -JavaScript
 
 ## 💻 Projeto
 
-O Habits é um app para ajudar a rastrear os hábitos. -[Visite o projeto online ](https://gabistz.github.io/nlw-setup)
+Neste projeto você vai construir uma página para a captação de leads ou newsletter.. -[Visite o projeto online ](https://gabistz.github.io/Login-Form-CSS/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Você pode visualizar o layout do projeto através [DESSE LINK](<https://www.figma.com/file/3KRuXZq6Ry50g1tP0UjSti/DD-%2F-Login-Form---CSS-(Copy)?type=design&node-id=216-2&t=LgIERBZRKb0TnBCw-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
