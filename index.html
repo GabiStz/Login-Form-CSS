@@ -21,7 +21,7 @@
     <header class="container-logo">
         <img class="logo" src="./images/logo.svg" alt="icone" />
     </header>
-<section class="fundo-quadrado">
+    <section class="fundo-quadrado">
 
     <section>
       <article class="back-desktop">
@@ -39,13 +39,14 @@
         <p>Entre com suas informações de cadastro.</p>
     </section>
   
-     <section class="container-email">
-       <article class="container-email">
+     <section  class="container-email">
+       <article  class="container-email">
               <img class="input-icon" src="./images/mail.svg" alt="icone" />
               <label id="email1" for="email">E-mail</label>
               <input
                   type="email"
                   id="email"
+                 onfocus=" myFunction()"
                   name="E-mail"
                   placeholder="Digite seu e-mail"
       />
@@ -53,10 +54,11 @@
     </section>
 
     <section class="container-password">
-        <article id="container-password">
+        <article class="container-password">
               <img class="input-icon" src="./images/lock.svg" alt="icone" />
+              <img class="input-eye" src="./images/eye.svg" alt="icone">
               <label id="senha1" for="senha">Senha</label>
-              <input
+              <input 
                   type="password"
                   id="senha"
                   maxlength="20"
@@ -87,17 +89,14 @@
       <p>Não tem uma conta? <a class="registre" href="#"><strong>Registre-se</strong></a>
   </section></p>
  
-</section>
+  </section>
     
 
   <section  class="imagem">
       <img class="img "src="/images/side-image.jpg" alt="carro">
   </section>
 
-
+  <script src="/js/index.js"></script>
 </body>
 
-  
-
-  <script href="/js/index.js"></script>
 </html>

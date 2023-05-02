@@ -38,11 +38,18 @@
         
        
       }
-    
+     
       #email1{
         font-family: poppins;
       }
-    
+      .input-eye{
+        height: auto;
+        width: 20px;
+        position: absolute;
+        top: 52%;
+        left: 530px;
+
+      }
     
       .input-icon{
         height: auto;
@@ -59,6 +66,10 @@
         padding: 2vw;
         padding-left: 7vw;
         width: 78vw;
+        background: black;
+        color: #afb6c2;
+        border: none;
+        
     }
       .container-password{
         position: relative;
@@ -77,6 +88,11 @@
         padding: 2vw;
         padding-left: 7vw;
         width: 78vw;
+        background: black;
+        color: #afb6c2;
+        background: black;
+        color: #afb6c2;
+        border: none;
       }
     
     
@@ -85,7 +101,6 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 5vw;
-        border-color:#FFC632 ;
         cursor: pointer;
       }
       
@@ -191,14 +206,21 @@
       #email1{
         font-family: poppins;
       }
-    
+      .input-eye{
+        height: auto;
+        width: 20px;
+        position: absolute;
+        top: 52%;
+        left: 285px;
+
+      }
     
       .input-icon{
         height: auto;
         width: 20px;
         position: absolute;
         top: 30px;
-        left: 8px;
+        left: 5px;
     
       }
       #email{
@@ -208,6 +230,9 @@
         padding: 2vw;
         padding-left: 8vw;
         width: 76vw;
+        background: black;
+        color: #afb6c2;
+        border: black;
     }
       .container-password{
         position: relative;
@@ -215,7 +240,7 @@
       }
       #senha1{
         
-        margin-top: 8vw;  
+         
         font-family: poppins;
       }
     
@@ -226,7 +251,12 @@
         padding: 2vw;
         padding-left: 8vw;
         width: 76vw;
+        background: black;
+        color: #afb6c2;
+        border: black;
+        margin-top: 1vw;
       }
+
     
     
       .container-check{
@@ -234,7 +264,6 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 5vw;
-        border-color:#FFC632 ;
         cursor: pointer;
       }
       

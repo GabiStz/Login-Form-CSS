@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1024px) {
   body{
     display: flex;
     flex-direction: row;
@@ -8,7 +8,6 @@
     color: #afb6c2;
     font-family: Roboto;
     margin: 0;
-    /* padding: 4vw; */
   }
   .fundo-quadrado{
     display: flex;
@@ -71,16 +70,23 @@
     font-family: poppins;
     margin-left: 5vw;
   }
-
+  .input-eye{
+    height: auto;
+    width: 20px;
+    position: absolute;
+    top: 55%;
+    left: 26.5vw;
+  }
 
   .input-icon{
     height: auto;
     width: 20px;
     position: absolute;
-    top: 55%;
-    left: 90px;
+    top: 53%;
+    left: 92px;
 
   }
+  
 
   #email{
     display: flex;
@@ -92,8 +98,9 @@
     width: 20vw;
     margin-bottom: 1vw;
     background:#24221F;
-    border: none;
     color: #A9AFB9;
+    border-style: double;
+   
 }
 .container-password{
   position: relative;
@@ -112,10 +119,10 @@
   padding-left: 3vw;
   margin-left: 5vw;
   width: 20vw;
-  margin-top: 1vw;
+  margin-top: 0.5vw;
   background:#24221F;
-  border: none;
   color: #A9AFB9;
+  border-style:double;
   
 }
 .container-check{
