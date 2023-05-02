@@ -11,14 +11,10 @@ Neste desafio você vai criar um formulário de login.. <br/>
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src=".github/readme.png"/>
-</p>
-
-<br>
+<br/>
 
 <p align="center">
-  <img alt="projeto Habits" src=".github/readme.jpg" width="100%">
+  <img alt="Login Form Css " src=".github/readme.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -29,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 - Figma
-  -JavaScript
+- JavaScript
 
 ## 💻 Projeto
 
