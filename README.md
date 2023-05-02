@@ -14,7 +14,7 @@ Neste desafio você vai criar um formulário de login.. <br/>
 <br/>
 
 <p align="center">
-  <img alt="Login Form Css " src=".github/readme.jpg" width="100%">
+  <img alt="Login Form Css " src=".github/readme.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
