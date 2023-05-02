@@ -12,7 +12,7 @@ Neste desafio você vai criar um formulário de login.. <br/>
 </p>
 
 <p align="center">
-  <img alt="License" src=".github/readme.png>
+  <img alt="License" src=".github/readme.png"/>
 </p>
 
 <br>
