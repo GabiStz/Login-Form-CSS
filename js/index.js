@@ -1,4 +1,7 @@
+var icon =  document.getElementById("test-icon");
+
 function myFunction() {
-   document.getElementById("email").style.borderColor= " yellow";
+   console.log(icon)
+   icon.classList.add("input-icon-yellow");
 }
   

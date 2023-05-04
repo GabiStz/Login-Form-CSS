@@ -66,6 +66,8 @@
     position: relative;
   }
 
+
+
   #email1{
     font-family: poppins;
     margin-left: 5vw;
@@ -84,9 +86,7 @@
     position: absolute;
     top: 53%;
     left: 92px;
-
   }
-  
 
   #email{
     display: flex;
@@ -100,8 +100,13 @@
     background:#24221F;
     color: #A9AFB9;
     border-style: double;
-   
-}
+  }
+
+  #email:focus{
+    outline: none;
+    border: 3px solid #FFC632;
+  }
+
 .container-password{
   position: relative;
   
@@ -125,6 +130,12 @@
   border-style:double;
   
 }
+
+#senha:focus{
+  outline: none;
+  border: 3px solid #FFC632;
+}
+
 .container-check{
   display: flex;
   flex-direction: row;
