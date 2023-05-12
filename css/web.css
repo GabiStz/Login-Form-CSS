@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 761px) {
   body{
     display: flex;
     flex-direction: row;
@@ -63,7 +63,9 @@
     height: 100vh;
   }
   .container-email{  
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    
   }
 
 
@@ -81,11 +83,25 @@
   }
 
   .input-icon{
+    display: block;
     height: auto;
     width: 20px;
     position: absolute;
     top: 53%;
     left: 92px;
+  }
+  #input-amarelo{
+    display: none;
+    height: auto;
+    width: 20px;
+    position: absolute;
+    top: 53%;
+    left: 92px;
+   
+  }
+   #input-amarelo:focus{
+    display: block;
+    
   }
 
   #email{
@@ -102,10 +118,11 @@
     border-style: double;
   }
 
-  #email:focus{
+  #email:focus {
     outline: none;
     border: 3px solid #FFC632;
   }
+
 
 .container-password{
   position: relative;

@@ -1,7 +1,7 @@
 /*Tablet */
 
 
-@media screen and (min-width:481px) and (max-width:767px){
+@media screen and (min-width:481px) and (max-width:760px){
     html{
         display: flex;
         flex-direction: row;
@@ -47,10 +47,9 @@
         width: 20px;
         position: absolute;
         top: 52%;
-        left: 530px;
+        left: 500px;
 
       }
-    
       .input-icon{
         height: auto;
         width: 20px;
@@ -59,6 +58,7 @@
         left: 8px;
     
       }
+      
       #email{
         display: flex;
         border-radius: 1vw;
@@ -71,6 +71,7 @@
         border: none;
         
     }
+
       .container-password{
         position: relative;
         margin-top: 5vw;
@@ -94,7 +95,10 @@
         color: #afb6c2;
         border: none;
       }
-    
+      #senha:focus{
+        outline: none;
+        border:  3px solid #FFC632;
+      }
     
       .container-check{
         display: flex;
@@ -134,6 +138,10 @@
       padding: 3.5vw;
       margin-top: 5vw;
       cursor: pointer;
+    }
+    #email:focus{
+      outline: none;
+      border: 3px solid #FFC632;
     }
     
     .container-registre{
@@ -214,7 +222,11 @@
         left: 285px;
 
       }
-    
+      .iconResponsivo{
+        display: flex;
+        flex-direction: row;
+
+      }
       .input-icon{
         height: auto;
         width: 20px;
@@ -233,6 +245,10 @@
         background: black;
         color: #afb6c2;
         border: black;
+    }
+    #email:focus{
+      outline: none;
+      border: 3px solid #FFC632;
     }
       .container-password{
         position: relative;
@@ -257,7 +273,10 @@
         margin-top: 1vw;
       }
 
-    
+      #senha:focus{
+        outline: none;
+        border: 3px solid #FFC632;
+      }
     
       .container-check{
         display: flex;
@@ -281,7 +300,10 @@
         border: black;
         cursor: pointer;
       }
-    
+      #email:focus{
+        outline: none;
+        border:  3px solid #FFC632;
+      }
       .container-inputEntrar{
         display: flex;
         flex-direction: column;
