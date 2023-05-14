@@ -31,33 +31,28 @@
         margin-top: -4vw;
       }
     
-      .container-email{
-       
-        position: relative;
-        margin-top: 5vw;
+      .container-email{  
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         
-       
       }
+      .EmailC{
+        display: flex;
+        flex-direction: column;
+      }
+      .inputEmail{
+        width: 3vw;
+        margin-top: -7.5vw;
+        margin-left: 2vw;
+    }
+      
      
       #email1{
+        margin-top: 6vw;
         font-family: poppins;
       }
-      .input-eye{
-        height: auto;
-        width: 20px;
-        position: absolute;
-        top: 52%;
-        left: 500px;
-
-      }
-      .input-icon{
-        height: auto;
-        width: 20px;
-        position: absolute;
-        top: 52%;
-        left: 8px;
-    
-      }
+   
       
       #email{
         display: flex;
@@ -69,12 +64,27 @@
         background: black;
         color: #afb6c2;
         border: none;
+        margin-bottom: 3vw;
         
     }
 
-      .container-password{
-        position: relative;
-        margin-top: 5vw;
+    .container-password{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     
+      
+    }
+      .inputSenhaEye{
+        width: 3vw;
+        padding-right: 2vw;
+        margin-top: -7.5vw;
+        margin-left: 2vw;
+      }
+      
+      .Senhac{
+        display: flex;
+        flex-direction: column;
       }
       #senha1{
         
@@ -111,9 +121,13 @@
       #lembre{
         cursor: pointer;
       }
-    
+      .teste{
+        display: flex;
+        flex-direction: row;
+      }
       .senha{
-       
+       display: flex;
+       flex-direction: row;
         color: #FFC632;
         text-decoration: none;
         font-family: poppins;
@@ -202,18 +216,29 @@
       .slogan{
         margin-top: -8vw;
       }
-    
-      .container-email{
-       
-        position: relative;
-        margin-top: 5vw;
+      .container-email{  
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         
-       
       }
     
+      .EmailC{
+        display: flex;
+        flex-direction: column;
+      }
+      .inputEmail{
+        width: 5vw;
+        margin-top: -10.5vw;
+        margin-left: 2vw;
+    }
+      
+     
       #email1{
+        margin-top: 6vw;
         font-family: poppins;
       }
+    
       .input-eye{
         height: auto;
         width: 20px;
@@ -222,75 +247,74 @@
         left: 285px;
 
       }
-      .iconResponsivo{
-        display: flex;
-        flex-direction: row;
-
-      }
-      .input-icon{
-        height: auto;
-        width: 20px;
-        position: absolute;
-        top: 30px;
-        left: 5px;
-    
-      }
+   
       #email{
         display: flex;
         border-radius: 1vw;
         font-family: Roboto;
         padding: 2vw;
         padding-left: 8vw;
-        width: 76vw;
+        width: 70vw;
         background: black;
         color: #afb6c2;
         border: black;
+        margin-bottom: 4vw;
     }
+
     #email:focus{
       outline: none;
       border: 3px solid #FFC632;
     }
-      .container-password{
-        position: relative;
-        margin-top: 5vw;
+
+   
+    .container-password{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+     
+      
+    }
+      .inputSenhaEye{
+        width: 4;
+        padding-right: 2vw;
+        margin-top: -10.5vw;
+        margin-left: 2vw;
       }
-      #senha1{
-        
-         
+    #senha1{
         font-family: poppins;
-      }
+    }
     
-      #senha{
+    #senha{
         display: flex;
         border-radius: 1vw;
         font-family: Roboto;
         padding: 2vw;
         padding-left: 8vw;
-        width: 76vw;
+        width: 70vw;
         background: black;
         color: #afb6c2;
         border: black;
         margin-top: 1vw;
-      }
+    }
 
-      #senha:focus{
+    #senha:focus{
         outline: none;
         border: 3px solid #FFC632;
-      }
+    }
     
-      .container-check{
+    .container-check{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 5vw;
         cursor: pointer;
-      }
+    }
       
-      #lembre{
+    #lembre{
         cursor: pointer;
-      }
+    }
     
-      .senha{
+    .senha{
        
         color: #FFC632;
         text-decoration: none;
@@ -299,11 +323,11 @@
         background-color: black;
         border: black;
         cursor: pointer;
-      }
-      #email:focus{
+    }
+    #email:focus{
         outline: none;
         border:  3px solid #FFC632;
-      }
+    }
       .container-inputEntrar{
         display: flex;
         flex-direction: column;

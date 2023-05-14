@@ -64,32 +64,27 @@
   }
   .container-email{  
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     
   }
-
-
+  .EmailC{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputEmail{
+    width: 1.5vw;
+    margin-top: -3.5vw;
+    margin-left: 6vw;
+  }
 
   #email1{
-    font-family: poppins;
     margin-left: 5vw;
+    font-family: poppins;
+   
   }
-  .input-eye{
-    height: auto;
-    width: 20px;
-    position: absolute;
-    top: 55%;
-    left: 26.5vw;
-  }
+ 
 
-  .input-icon{
-    display: block;
-    height: auto;
-    width: 20px;
-    position: absolute;
-    top: 53%;
-    left: 92px;
-  }
   #input-amarelo{
     display: none;
     height: auto;
@@ -125,14 +120,27 @@
 
 
 .container-password{
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
   
 }
 #senha1{  
   font-family: poppins;
   margin-left: 5vw;
 }
+.inputSenhaEye{
+  width: 1.5vw;
+  padding-right: 2vw;
+  margin-top: -3.5vw;
+  margin-left: 6vw;
+}
 
+.Senhac{
+  display: flex;
+  flex-direction: column;
+}
 #senha{
   display: flex;
   border-radius: 0.5vw;
@@ -159,7 +167,6 @@
   justify-content: space-between;
   gap: 6vw;
   margin-left: 5vw;
-  
   margin-top: 1vw;
 
 }
