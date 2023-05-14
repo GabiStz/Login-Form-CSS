@@ -85,20 +85,6 @@
   }
  
 
-  #input-amarelo{
-    display: none;
-    height: auto;
-    width: 20px;
-    position: absolute;
-    top: 53%;
-    left: 92px;
-   
-  }
-   #input-amarelo:focus{
-    display: block;
-    
-  }
-
   #email{
     display: flex;
     border-radius: 0.5vw;
