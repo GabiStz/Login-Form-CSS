@@ -115,6 +115,7 @@
 #senha1{  
   font-family: poppins;
   margin-left: 5vw;
+  min-width: max-content;
 }
 .inputSenhaEye{
   width: 1.5vw;
@@ -160,6 +161,11 @@
 #lembre{
   cursor: pointer;
   background-color: #FFC632;
+  min-width: max-content;
+}
+.teste{
+  display: flex;
+  flex-direction: row;
 }
 .senha{
        
