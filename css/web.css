@@ -148,13 +148,14 @@
   border: 3px solid #FFC632;
 }
 
+
 .container-check{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 6vw;
   margin-left: 5vw;
   margin-top: 1vw;
+  
 
 }
 
