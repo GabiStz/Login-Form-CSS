@@ -1,0 +1,211 @@
+
+@media screen and (min-width: 761px) {
+  body{
+    display: flex;
+    flex-direction: row;
+    background: rgb(0, 0, 0);
+    justify-content: space-between;
+    color: #afb6c2;
+    font-family: Roboto;
+    margin: 0;
+  }
+  .fundo-quadrado{
+    display: flex;
+    background-color:#24221F;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    margin-top: 11vw;
+    height: 55vh;
+    margin-right: 6VW;
+    padding-top: 6vw;
+    margin-left: -9vw;
+    padding-right: 5vw;
+  }
+  .logo{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    width: 10vw;
+  }
+
+  .container-login{
+    display: flex;
+    margin-left: -3vw;
+    margin-top: -2vw;
+    flex-direction: row;
+    gap: 0.5vw;
+   }
+
+  #txt1{
+    
+    font-size:1.5rem;
+    font-family: poppins;
+  }
+  
+  .slogan{
+    margin-top: -2.5vw;
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
+    
+  }
+
+  .imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 50vw;
+    height: 97.5vh;
+    
+  }
+  .img{
+    width: 100vw;
+    height: 100vh;
+  }
+  .container-email{  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .EmailC{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputEmail{
+    width: 1.5vw;
+    margin-top: -3.5vw;
+    margin-left: 6vw;
+  }
+
+  #email1{
+    margin-left: 5vw;
+    font-family: poppins;
+   
+  }
+ 
+
+  #email{
+    display: flex;
+    border-radius: 0.5vw;
+    font-family: Roboto;
+    padding: 1vw;
+    padding-left: 3vw;
+    margin-left: 5vw;
+    width: 20vw;
+    margin-bottom: 1vw;
+    background:#24221F;
+    color: #A9AFB9;
+    border-style: double;
+  }
+
+  #email:focus {
+    outline: none;
+    border: 3px solid #FFC632;
+  }
+
+
+.container-password{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  
+}
+#senha1{  
+  font-family: poppins;
+  margin-left: 5vw;
+  min-width: max-content;
+}
+.inputSenhaEye{
+  width: 1.5vw;
+  padding-right: 2vw;
+  margin-top: -3.5vw;
+  margin-left: 6vw;
+}
+
+.Senhac{
+  display: flex;
+  flex-direction: column;
+}
+#senha{
+  display: flex;
+  border-radius: 0.5vw;
+  font-family: Roboto;
+  padding: 1vw;
+  padding-left: 3vw;
+  margin-left: 5vw;
+  width: 20vw;
+  margin-top: 0.5vw;
+  background:#24221F;
+  color: #A9AFB9;
+  border-style:double;
+  
+}
+
+#senha:focus{
+  outline: none;
+  border: 3px solid #FFC632;
+}
+
+
+.container-check{
+  display: flex;
+  flex-direction: row;
+  gap: 6vw;
+  margin-left: 5vw;
+  margin-top: 1vw;
+  
+
+}
+
+#lembre{
+  cursor: pointer;
+  background-color: #FFC632;
+  min-width: max-content;
+}
+.teste{
+  display: flex;
+  flex-direction: row;
+}
+.senha{
+       
+  color: #FFC632;
+  text-decoration: none;
+  font-family: poppins;
+  border: black;
+  cursor: pointer;
+  
+}
+.container-inputEntrar{
+  display: flex;
+  flex-direction: column;
+  
+}
+#entrar{
+color: #473404;
+font-family: poppins;
+font-weight: bold;
+background-color: #FFC632;
+border-radius: 0.5vw;
+border: none;
+padding: 1vw;
+margin-top: 2vw;
+margin-left: 5vw;
+width: 25vw;
+cursor: pointer;
+}
+.container-registre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #FFC632;
+  padding-left: 5vw;
+}
+.registre{
+  text-decoration: none;
+  color: #FFC632;
+  cursor: pointer;
+}
+
+}
